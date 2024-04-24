@@ -21,7 +21,10 @@ public class MyWorld extends World
         Hero hero = new Hero();
         addObject(hero, 100, 100);  
         
-        Banana banana = new Banana();
-        addObject(banana, 600, 100);
+        Stinger stinger = new Stinger();
+        addObject(stinger, 600, 100);
+        
+        Arachnid arachnid = new Arachnid();
+        addObject(arachnid, 600, 300);
     }
 }

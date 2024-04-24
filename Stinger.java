@@ -1,12 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Banana here.
+ * Write a description of class Stinger here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Banana extends Actor
+public class Stinger extends Actor
 {
     /**
      * Act - do whatever the Banana wants to do. This method is called whenever
@@ -18,7 +18,7 @@ public class Banana extends Actor
         
         if(getX() <= 0)
         {
-            resetBanana();
+            resetStinger();
         }
         
         if(isTouching(Hero.class))
@@ -30,7 +30,7 @@ public class Banana extends Actor
         }
     }
     
-    public void resetBanana()
+    public void resetStinger()
     {
         int num = Greenfoot.getRandomNumber(2);
         if(num == 0)
