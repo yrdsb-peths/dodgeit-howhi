@@ -32,14 +32,14 @@ public class Arachnid extends Actor
     
     public void resetArachnid()
     {
-        int num = Greenfoot.getRandomNumber(2);
-        if(num == 0)
+        int num = Greenfoot.getRandomNumber(3);
+        if(num == 0 || num == 3)
         {
-            setLocation(600, 100);
+            setLocation(500, 100);
         }
         else
         {
-            setLocation(600, 350);
+            setLocation(500, 350);
         }
     }
 }

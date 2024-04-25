@@ -22,6 +22,6 @@ public class MyWorld extends World
         addObject(hero, 100, 100);  
         
         Arachnid arachnid = new Arachnid();
-        addObject(arachnid, 600, 350);
+        addObject(arachnid, 500, 350);
     }
 }
