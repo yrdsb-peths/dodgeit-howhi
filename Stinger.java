@@ -39,7 +39,7 @@ public class Stinger extends Actor
         }
         else
         {
-            setLocation(600, 300);
+            setLocation(600, 350);
         }
     }
 }

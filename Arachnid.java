@@ -39,7 +39,7 @@ public class Arachnid extends Actor
         }
         else
         {
-            setLocation(600, 300);
+            setLocation(600, 350);
         }
     }
 }
