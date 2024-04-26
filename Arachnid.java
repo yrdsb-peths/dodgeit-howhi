@@ -33,6 +33,7 @@ public class Arachnid extends Actor
     public void resetArachnid()
     {
         //Changed Location of Arachnid to match Hero's
+        //Changed getRandomNumber range
         int num = Greenfoot.getRandomNumber(3);
         if(num == 0 || num == 3)
         {
