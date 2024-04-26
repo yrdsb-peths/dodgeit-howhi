@@ -27,6 +27,7 @@ public class Hero extends Actor
         }
         else
         {
+            //Changed setLocation to match Arachnid's
             setLocation(100, 350);
         }
     }
